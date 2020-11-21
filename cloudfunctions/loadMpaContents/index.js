@@ -3,7 +3,7 @@ const cloud = require('wx-server-sdk')
 const specialGroupCenter = require('./specialGroupCenter.js')
 
 cloud.init({
-  env: cloud.DYNAMIC_CURRENT_ENV
+  //env: 'dquwei-wx-4rcxr'
 })
 
 const db = cloud.database()
